@@ -1,0 +1,23 @@
+#footer {
+    margin-top: 40px;
+    position: relative;
+    pointer-events: none;
+    box-sizing: border-box;
+    height: 80px;
+    
+    h5 {
+        font-family: "Roboto";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 30px;
+        margin: auto;
+        font-size: 18px;
+        width: 162px;
+    }
+    img {
+        width: 90%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

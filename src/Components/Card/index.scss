@@ -1,0 +1,42 @@
+#card {
+    min-width: 260px;
+    height: 198px;
+    margin: 10px 20px;
+    box-sizing: border-box;
+    padding: 16px;
+    border-radius: 2px;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.24);
+    background-color: #ffffff;
+    h5{
+    font-family: "Roboto";
+    font-size: 20px;
+    margin: 5px 0;
+    color: #4d4d4d;
+
+    }
+    img {
+        width: 40px;
+        max-height: 40px;
+        object-fit: cover;
+    }
+    text-align: left;
+
+
+    p{
+        font-family: "Roboto";
+        font-size: 14px;
+        font-weight: 400;
+        color: #7c7c7c;
+    }
+    a {
+        display: flex;
+        align-items: center;
+        color: #0072b5;
+        font-family: "Roboto";
+    
+        svg {
+            font-size: 20px;
+            margin-left: 5px;
+        }
+    }
+}
